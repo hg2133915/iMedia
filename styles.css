@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+	color: #000000;
+}
+
+.twoColElsLtHdr #container { 
+	width: 46em;  
+	background: #FFFFFF;
+	margin: 0 auto; 
+	border: 1px solid #000000;
+	text-align: left; 
+} 
+.twoColElsLtHdr #header { 
+	background: #DDDDDD; 
+	padding: 0 10px; 
+} 
+.twoColElsLtHdr #header h1 {
+	margin: 0;
+	padding: 10px 0; 
+}
+
+.twoColElsLtHdr #sidebar1 {
+	float: left; 
+	width: 12em; 
+	background: #EBEBEB; 
+	padding: 15px 0; 
+}
+.twoColElsLtHdr #sidebar1 h3, .twoColElsLtHdr #sidebar1 p {
+	margin-left: 10px; 
+	margin-right: 10px;
+}
+
+
+*/
+.twoColElsLtHdr #mainContent {
+	margin: 0 1.5em 0 13em;
+} 
+.twoColElsLtHdr #footer { 
+	padding: 0 10px; 
+	background:#DDDDDD;
+} 
+.twoColElsLtHdr #footer p {
+	margin: 0;
+	padding: 10px 0; 
+}
+
+
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+a:link {
+	text-decoration: none;
+	color:#3F0;
+}
+
+a:visited {
+	color:#3F0;
+}
+
+a.active {
+	color:#F00;
+}
+
+a:hover {
+	color:#09F;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 1px;
+  border-radius: 50%;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #936;
+  color: white;
+}
+
+.fa-envelope-o {
+	background: #09C;
+	color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.floatright {
+	float: right;
+}
+
+p.round1 {
+	border: 2px solid red;
+    border-radius: 5px;
+}
